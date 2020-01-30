@@ -1,13 +1,13 @@
 // the only problem remaining (so far) is the one minute
 // time stamp code occurs about every 26 ish seconds
-// this means you loop count timing scheme blows
+// this means your loop count timing scheme blows
 // so go fix dat
 
 // mux goes like this:
 // y0-y3 are ref_VCC inputs, y out goes to adc 1
 // x0-x3 are ref_mv inputs, x out goes to adc2
 
-//<debuuging defines>
+//<debugging defines>
 #define _DEBUG_ // for serial debugging
 //#undef    _DEBUG_
 //</debuging defines>
