@@ -1,7 +1,7 @@
 // the only problem remaining (so far) is the one minute
 // time stamp code occurs about every 26 ish seconds
 // this means your loop count timing scheme blows
-// so go fix dat
+// so revisit for debug.
 
 // mux goes like this:
 // y0-y3 are ref_VCC inputs, y out goes to adc 1
